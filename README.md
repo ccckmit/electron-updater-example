@@ -12,6 +12,16 @@
 
 記得您必須在 [releases](releases) 當中設定 draft 為 update release 之後，才會正式 release.
 
+還有必須在環境變數中設定 [Environment]::SetEnvironmentVariable("GH_TOKEN","<YOUR_TOKEN_HERE>","User")
+
+然後重新啟動 shell / cmd/powershell 之後，環境變數才會生效。
+
+github 的 GH_TOKEN 可以在下列網址產生：
+
+<https://github.com/settings/tokens/new>
+
+--------------
+
 This repo contains the **bare minimum code** to have an auto-updating Electron app using [`electron-updater`](https://github.com/electron-userland/electron-builder/tree/master/packages/electron-updater) with releases stored on GitHub.
 
 If you can't use GitHub, you can use other providers:
