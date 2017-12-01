@@ -1,3 +1,17 @@
+# electron-updater 的範例
+
+本範例 fork 自 https://github.com/iffy/electron-updater-example
+
+當你在 github 上 release 新版本時，已經釋出安裝好的軟體也會跟著更新。
+
+記得要更新 package.json 中的 version 才會有新的釋出。
+
+以下是更新畫面
+
+![](img/updating.png)
+
+記得您必須在 [releases](releases) 當中設定 draft 為 update release 之後，才會正式 release.
+
 This repo contains the **bare minimum code** to have an auto-updating Electron app using [`electron-updater`](https://github.com/electron-userland/electron-builder/tree/master/packages/electron-updater) with releases stored on GitHub.
 
 If you can't use GitHub, you can use other providers:
